@@ -49,6 +49,7 @@ Este microservicio sirve para gestionar libros. Se puede crear, listar todos los
 
 - Java
 - SpringBoot
+- MongoDB
 
 ## Arquitectura
 
@@ -56,9 +57,17 @@ Este microservicio sirve para gestionar libros. Se puede crear, listar todos los
 
 ## Despliegue
 
+### Backend
+
 Microservicio desplegado en heroku, se puede acceder a él en la siguiente URL [https://test-c13-backend.herokuapp.com](https://test-c13-backend.herokuapp.com). Para su uso es necesario disponer de un software como postman o crear un componente frontend que lo consuma.
 
 ![Image text](/src/main/resources/static/despliegue.png)
+
+### Base de Datos
+
+La base de datos se encuentra desplegada en Mongo Atlas, informo credenciales por si se desea revisar persistencia:
+
+`mongodb+srv://seraleman:pruebac13@bookms.w04gh.mongodb.net/books?retryWrites=true&w=majority`.
 
 ## Endpoints
 
